@@ -5,7 +5,7 @@ plugins {
     application
 }
 
-group = "com.lethanh98"
+group = "com.linecorp.study.kotlin"
 version = "1.0-SNAPSHOT"
 
 repositories {

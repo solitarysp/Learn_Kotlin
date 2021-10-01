@@ -34,3 +34,10 @@ fun main() {
     a.age = 25;
     println(a.age)
 }
+fun printHello(name: String?): Unit {
+    if (name != null)
+        println("Hello $name")
+    else
+        println("Hi there!")
+    return Unit;
+}

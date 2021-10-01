@@ -16,19 +16,19 @@ suspend fun test1() {
  fun main() {
     runBlocking {
         launch {
-            println("Dd")
+            println("launch start 1")
 
             test1()
 
-            println("Dd2")
+            println("launch end 1")
 
         }
         launch {
-            println("Dd")
+            println("launch start 2")
 
             test1()
 
-            println("Dd2")
+            println("launch end 2")
 
         }
     }

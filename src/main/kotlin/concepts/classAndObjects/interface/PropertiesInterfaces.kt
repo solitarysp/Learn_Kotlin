@@ -5,6 +5,8 @@ interface PropertiesInterfacesA {
     var name: String;
 }
 
-fun main() {
+class PropertiesInterfacesAImpl(override var name: String) : PropertiesInterfacesA
 
+fun main() {
+val test=PropertiesInterfacesAImpl("Thành");
 }
